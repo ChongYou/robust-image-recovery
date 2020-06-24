@@ -2,9 +2,9 @@
 
 This repository is the official implementation of the paper [Robust Recovery via Implicit Bias of Discrepant Learning Rates for Double Over-parameterization](https://arxiv.org/abs/2006.08857) by Chong You (UC Berkeley), Zhihui Zhu (University of Denver), Qing Qu (NYU) and Yi Ma (UC Berkeley). 
 
-Given an image corrupted with salt-and-pepper noise (left), our method produces an image (middle) that closely recovers the underlying clean image (right).
+Given an image corrupted with salt-and-pepper noise (left), our method produces an image (middle) that closely resembles the underlying clean image (right).
 
-![image](https://github.com/ChongYou/robust-image-recovery/blob/master/figs/corrupted.jpg)    ![image](https://github.com/ChongYou/robust-image-recovery/blob/master/figs/recovered.jpg)    ![image](https://github.com/ChongYou/robust-image-recovery/blob/master/figs/clean.jpg)
+<img src="https://github.com/ChongYou/robust-image-recovery/blob/master/figs/corrupted.jpg" width="256" height="256"> <img src="https://github.com/ChongYou/robust-image-recovery/blob/master/figs/recovered.jpg" width="256" height="256"> <img src="https://github.com/ChongYou/robust-image-recovery/blob/master/figs/clean.jpg" width="256" height="256">
 
 The following learning curves show that our method produces higher PSNR (Ours (width=192) below) and does not overfit when compared to previous Deep Image Prior method (DIP-L1 (width=192) below).
 
