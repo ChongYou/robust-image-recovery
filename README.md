@@ -1,6 +1,6 @@
 # Robust Image Recovery via Double Over-parameterization
 
-This repository is the official implementation of the paper [Robust Recovery via Implicit Bias of Discrepant Learning Rates for Double Over-parameterization](https://arxiv.org/abs/2006.08857) by Chong You (UC Berkeley), Zhihui Zhu (University of Denver), Qing Qu (NYU) and Yi Ma (UC Berkeley). 
+This repository is the official implementation of the paper [Robust Recovery via Implicit Bias of Discrepant Learning Rates for Double Over-parameterization](https://arxiv.org/abs/2006.08857) by Chong You (UC Berkeley), Zhihui Zhu (University of Denver), Qing Qu (NYU) and Yi Ma (UC Berkeley), published at Neurips 2020 (spotlight)
 
 Given an image corrupted with salt-and-pepper noise (left), our method produces an image (middle) that closely resembles the underlying clean image (right).
 
